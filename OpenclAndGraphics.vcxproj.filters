@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="FundLibs\clHelper\ClHelper.h" />
+    <ClInclude Include="FundLibs\clHelper\clHL.h" />
+    <ClInclude Include="FundLibs\FileHelper\FileHelper.h" />
+    <ClInclude Include="FundLibs\WinHelper\RendWin.h" />
+    <ClInclude Include="FundLibs\WinHelper\winHelper.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="FundLibs\clHelper\ClHelper.cpp" />
+    <ClCompile Include="FundLibs\FileHelper\FileHelper.cpp" />
+    <ClCompile Include="FundLibs\WinHelper\RendWin.cpp" />
+    <ClCompile Include="FundLibs\WinHelper\winHelper.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="render.cl" />
+  </ItemGroup>
+</Project>
